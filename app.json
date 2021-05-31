@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "RunnerUp",
+    "slug": "RunnerUp",
+    "version": "0.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.runnerup.app",
+			"infoPlist": {
+        "NSCameraUsageDescription": "RunnerUp requires to access camera for taking pictures.",
+        "NSPhotoLibraryUsageDescription": "RunnerUp requires to access photo library for taking pictures."
+      }
+    },
+    "android": {
+			"package": "com.runnerup.app",                
+      "versionCode": 12,
+			"adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": { 
+        "googleMaps": 
+        { "apiKey": "" } 
+      },
+			"permissions": [
+				"NOTIFICATIONS", "CAMERA", "MEDIA_LIBRARY", "CAMERA_ROLL"
+      ]
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#000000",
+      "barStyle": "light-content"
+    },
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
