@@ -99,7 +99,7 @@ export default function CourseDetails({ navigation, route }) {
   );
 
   const movementType = 'walking'; // 'walking';
-  const APIKEY = 'AIzaSyCE1K5XjF-5pIPfyqKmC1JUfT8Qj1TwzYc';
+  const APIKEY = '';
   // const ASPECT_RATIO = windowWidth / windowHeight;
   // const LATITUDE_DELTA = 0.34;
   // const LONGITUDE_DELTA = 0.8;
